@@ -1,12 +1,80 @@
-# React + Vite
+# 💪 GainTrack – Progressive Overload Tracker
+A modern, responsive Workout Tracking Application built with React and Vite. This app helps users log their exercises, manage workout routines, and visualize their training progress—all while ensuring a smooth, intuitive user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Tech Stack
+Frontend Framework:
 
-Currently, two official plugins are available:
+‣ React (v19.0.0)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+‣ Vite (v6.3.1)
 
-## Expanding the ESLint configuration
+## Development Tools:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+‣ ESLint for code quality
+
+‣ TypeScript (optional, supported)
+
+‣ Modern JavaScript (ESModules)
+
+## ✨ Key Features
+### 🏋️ Exercise Management
+‣ Add new exercises with:  Exercise name, Sets, reps, weight
+
+‣ Automatic date tracking
+
+‣ Auto volume calculation (sets × reps × weight)
+
+### 🎨 Visual Enhancements
+‣ Exercise-specific images
+
+‣ Default image fallback
+
+‣ Predefined workout types with visuals
+
+### 🧑‍💻 User Interface
+‣ Light/Dark mode toggle
+
+‣ Clean, modern UI
+
+‣ Responsive design for all devices
+
+‣ Header and footer components
+
+### 💾 Data Persistence
+‣ LocalStorage support
+
+‣ Automatic data saving
+
+‣ Persistent across reloads
+
+### 💪 Supported Exercises
+Bench Press, Squat, Deadlift, Shoulder Press, Pull Up, Push Up, Bicep Curl, Tricep Extension, Lat Pulldown, Leg Press
+
+## 🧠 Core Functionality
+### Real-Time Logging
+‣ Track exercises live with instant volume calculation
+
+‣ Organize data by date
+
+‣ Delete entries with ease
+
+### State Management
+‣ useState for dynamic data
+
+‣ useEffect for side effects
+
+‣ Optimized state updates
+
+### Data Handling
+‣ Chronological display
+
+‣ Categorization with image pairing
+
+## 🧰 Developer Skills & Tools
+‣ React.js: Hooks, props, component structure
+
+‣ JavaScript ES6+: Array methods, async/await
+
+‣ CSS: Flexbox, Grid, responsive layouts, dark mode
+
+‣ Tools: Git, npm/yarn, Vite, ESLint

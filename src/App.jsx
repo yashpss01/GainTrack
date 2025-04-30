@@ -5,7 +5,6 @@ import ExerciseList from './components/ExerciseList'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-// Exercise image mapping for better search results
 const EXERCISE_IMAGE_QUERIES = {
   'Bench Press': 'barbell bench press gym',
   'Squat': 'barbell back squat gym',
@@ -19,13 +18,14 @@ const EXERCISE_IMAGE_QUERIES = {
   'Leg Press': 'leg press machine gym'
 }
 
-// Default exercise images as fallback
+
 const DEFAULT_IMAGES = {
   'Bench Press': 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=500&q=80',
   'Squat': 'https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=500&q=80',
   'Deadlift': 'https://images.unsplash.com/photo-1603287681836-b174ce5074c2?w=500&q=80',
   'Shoulder Press': 'https://images.unsplash.com/photo-1576678927484-cc907957088c?w=500&q=80',
   'Pull Up': 'https://images.unsplash.com/photo-1598971639058-b4e6c81ef562?w=500&q=80',
+  
   'Push Up': 'https://images.unsplash.com/photo-1598971639058-b4e6c81ef562?w=500&q=80',
   'Bicep Curl': 'https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=500&q=80',
   'default': 'https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=500&q=80'
